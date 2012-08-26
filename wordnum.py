@@ -55,6 +55,7 @@ class Place():
             n.tc = tc
 
 def bisect(c, target, o, k, lo, hi):
+    '''Binary search extended with tracking info for the derived indices.'''
     i = (hi + lo) / 2
     print lo, hi, i
     if hi <= lo:
