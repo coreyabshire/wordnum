@@ -7,8 +7,8 @@
 #  causing the sorting difficulty. The second is to recognize
 #  that within a place, the numbers repeat consistently such that
 #  you can derive the starting and ending indices within a place.
-#  With those two insights, and binary search can be extended with 
-#  additional tracking to find the solution.
+#  With those two insights binary search can be extended with 
+#  additional tracking information to find the solution.
 # Copyright (c) 2011 Corey Abshire.
 
 import sys, copy
